@@ -5,7 +5,23 @@
     padding: 0 15px 20px;
   }
   header > .nav-section {
-    display: none;
+    display: block;
+  }
+  header > .nav-section > .logo-text {
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  header > .nav-section > .nav-links {
+    display: block;
+    text-align: center;
+  }
+  header > .nav-section > .nav-links > li {
+    border-bottom: 1px solid #fcf6ee;
+    padding: 10px;
+  }
+  header > .nav-section > .nav-links > li:hover {
+    background-color: #ffefdb;
   }
   .header-section > .header-title {
     font-size: 35px;
@@ -14,16 +30,25 @@
   .header-section > .header-banner {
     height: auto;
   }
+  .header-section > .header-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
   /* header section end */
 
   /* feature section start */
   .features {
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 0 15px;
   }
-  .features > .features-section > .feature-gallery {
-    padding: 0 15px;
+  .features .feature-text > .btn-explore {
+    margin: 0 auto;
+    display: block;
   }
+  /* .features > .features-section > .feature-gallery {
+    padding: 0 15px;
+  } */
   .features > .features-section > .feature-gallery {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
@@ -40,12 +65,17 @@
   /* extra feature section start */
   .xtra-feature {
     padding: 0 15px;
+    margin: 50px 0 50px;
   }
+
   .xtra-feature .xtra-feature-text {
     width: 100%;
   }
   .xtra-feature .xtra-feature-text .d-block,
-  .some-facts-section > .container > .fact-description > .d-block {
+  .some-facts-section > .container > .fact-description > .d-block,
+  .header-section > .header-subtitle > .d-block,
+  .header-section > .header-title > .d-block,
+  .feature-text > .feature-title .d-block {
     display: initial;
   }
   .xtra-feature .xtra-fetaure-img {
@@ -60,7 +90,8 @@
 
   /* Some Fact Section start  */
   .some-facts-section {
-    margin-top: 40%;
+    margin-top: 50%;
+    padding: 0 15px;
   }
   .some-facts-section > .container {
     text-align: center;
@@ -91,7 +122,7 @@
   }
   /* Sponsor section end */
   /* footer section start */
-  
+
   /* footer section end */
   .column-reverse {
     flex-direction: column-reverse;

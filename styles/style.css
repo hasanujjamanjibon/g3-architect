@@ -54,6 +54,12 @@ header > .nav-section {
   padding: 20px 0;
   margin-bottom: 20px;
 }
+header > .nav-section > .logo-text {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
 header > .nav-section > .nav-links {
   gap: 60px;
 }
@@ -94,7 +100,7 @@ header > .nav-section > .nav-links li a {
   margin: 0 auto;
 }
 .header-section > .header-banner {
-  height: 400px;
+  height: 460px;
   width: 100%;
 }
 /* header section end */
@@ -251,16 +257,10 @@ header > .nav-section > .nav-links li a {
   transition: transform 0.4s ease;
   transform: scale(1);
   width: 241.83px;
-height: 241.83px;
+  height: 241.83px;
 }
 .some-facts-section > .container > .fact-box-section > .fact-box:hover {
   transform: scale(1.2);
-}
-.some-facts-section
-  > .container
-  > .fact-box-section
-  > .fact-box
-  > .factBox-logo {
 }
 
 .some-facts-section
@@ -315,3 +315,18 @@ height: 241.83px;
 }
 
 /* Sponsor section end */
+
+/* Footer section start */
+.footer-section {
+  padding: 40px 15px;
+  background-color: #fff4e7;
+  text-align: center;
+}
+.footer-section > .footer-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
+}
+/* Footer section end */
