@@ -17,7 +17,7 @@
     text-align: center;
   }
   header > .nav-section > .nav-links > li {
-    border-bottom: 1px solid #fcf6ee;
+    border-bottom: 1px solid #f4ece2;
     padding: 10px;
   }
   header > .nav-section > .nav-links > li:hover {
@@ -155,10 +155,6 @@
   .features > .features-section > .feature-gallery {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
-  }
-
-  .column {
-    flex-direction: column;
   }
 }
 @media screen and (max-width: 427.98px) {
