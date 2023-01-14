@@ -165,8 +165,6 @@ header > .nav-section > .nav-links li a {
   line-height: 26px;
   color: #727272;
 }
-.xtra-feature .xtra-feature-text > .feature-box-section {
-}
 .xtra-feature .xtra-feature-text > .feature-box-section > .box {
   padding: 20px;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
@@ -218,3 +216,102 @@ header > .nav-section > .nav-links li a {
 }
 
 /* extra feature section end */
+
+/* Some Fact Section start  */
+.some-facts-section {
+  margin: 100px 0 50px;
+}
+.some-facts-section > .container > .fact-header {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.some-facts-section > .container > .fact-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 25px;
+}
+.some-facts-section > .container > .fact-box-section {
+  margin-top: 100px;
+  gap: 125px;
+}
+.some-facts-section > .container > .fact-box-section > .fact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+  gap: 10px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  transition: transform 0.4s ease;
+  transform: scale(1);
+  width: 241.83px;
+height: 241.83px;
+}
+.some-facts-section > .container > .fact-box-section > .fact-box:hover {
+  transform: scale(1.2);
+}
+.some-facts-section
+  > .container
+  > .fact-box-section
+  > .fact-box
+  > .factBox-logo {
+}
+
+.some-facts-section
+  > .container
+  > .fact-box-section
+  > .fact-box
+  > .factBox-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+.some-facts-section
+  > .container
+  > .fact-box-section
+  > .fact-box
+  > .factBox-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+}
+/* Some Fact Section end  */
+
+/* sponsor  section start */
+.sponsor {
+  margin: 100px 0;
+  width: 100%;
+}
+
+.sponsor > .container > .sponsor-header {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  text-align: center;
+}
+.sponsor > .container > .sponsor-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  text-align: center;
+  margin: 25px 0 50px;
+}
+.sponsor > .container > .gallery {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.sponsor > .container > .gallery > .sponsors-logo {
+  filter: grayscale(100%);
+}
+
+/* Sponsor section end */
