@@ -59,7 +59,7 @@
   /* extra feature section start */
   .xtra-feature {
     padding: 0 15px;
-    margin: 50px 0 50px;
+    margin: 50px 0 20px;
   }
 
   .xtra-feature .xtra-feature-text {
@@ -134,8 +134,9 @@
     display: block;
   }
   /* contact section end */
-  .column-reverse {
-    flex-direction: column-reverse;
+  .column {
+    flex-direction: column;
+    gap: 30px;
   }
   .column-md {
     flex-direction: column;

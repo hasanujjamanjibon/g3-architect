@@ -148,7 +148,7 @@ header > .nav-section > .nav-links li a {
 /* feature section end */
 /* extra feature section start */
 .xtra-feature {
-  margin: 130px 0 50px;
+  margin: 130px 0 20px;
 }
 .xtra-feature > .container {
   align-items: flex-start;
@@ -227,7 +227,7 @@ header > .nav-section > .nav-links li a {
 
 /* Some Fact Section start  */
 .some-facts-section {
-  margin: 100px 0 50px;
+  margin: 10px 0 50px;
 }
 .some-facts-section > .container > .fact-header {
   font-weight: 700;
