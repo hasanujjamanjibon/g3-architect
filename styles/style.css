@@ -1,0 +1,220 @@
+/* Google Fonts - work sans */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+/* Reset My css */
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: "Work Sans", sans-serif;
+}
+/* re-usable-css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.d-block {
+  display: block;
+}
+.btn {
+  width: 180px;
+  height: 65px;
+  background: #ff900e;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+/* end */
+/*-----------*/
+/* header section style start */
+header {
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* header section style end */
+header > .nav-section {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+header > .nav-section > .nav-links {
+  gap: 60px;
+}
+header > .nav-section > .nav-links li {
+  list-style: none;
+}
+header > .nav-section > .nav-links li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+}
+/* header section start */
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.header-section > .header-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+}
+.header-section > .header-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+
+.header-section > .btn-explore {
+  display: inline-block;
+  margin: 0 auto;
+}
+.header-section > .header-banner {
+  height: 400px;
+  width: 100%;
+}
+/* header section end */
+/* feature section start */
+.features {
+  width: 100%;
+  height: auto;
+  margin: 200px 0 50px;
+}
+
+.features > .features-section > .feature-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.features > .features-section > .feature-gallery > .gallery-img {
+  width: 310px;
+  height: 310px;
+}
+.features > .features-text {
+  width: 60%;
+}
+.feature-text > .feature-title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+}
+.feature-text > .feature-title > .extra-color {
+  color: #131313;
+  font-weight: 700;
+}
+.feature-text > .feature-title > .extra-color + span {
+  color: #ff900e;
+  font-weight: 700;
+}
+.feature-text > .feature-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 25px 0 32px;
+}
+/* feature section end */
+/* extra feature section start */
+.xtra-feature {
+  margin: 130px 0 50px;
+}
+.xtra-feature > .container {
+  align-items: flex-start;
+}
+
+.xtra-feature .xtra-feature-text {
+  width: 41%;
+}
+.xtra-feature .xtra-feature-text > .xtra-feature-header {
+  padding: 5px 0 5px 15px;
+  border-left: 5px solid #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.xtra-feature .xtra-feature-text > .xtra-feature-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.xtra-feature .xtra-feature-text > .feature-box-section {
+}
+.xtra-feature .xtra-feature-text > .feature-box-section > .box {
+  padding: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.xtra-feature .xtra-feature-text > .feature-box-section > .box > .box-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+}
+.xtra-feature .xtra-feature-text > .feature-box-section > .box > .box-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #727272;
+}
+.xtra-feature .xtra-fetaure-img {
+  position: relative;
+  width: 47%;
+  height: auto;
+}
+.xtra-feature .xtra-fetaure-img > img {
+  width: 100%;
+}
+.xtra-feature .xtra-fetaure-img > div {
+  position: absolute;
+  bottom: -50px;
+  left: -80px;
+  text-align: center;
+  background-color: #ff900e;
+  padding: 30px;
+  border-radius: 8px;
+}
+.xtra-feature .xtra-fetaure-img > div > h3 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.xtra-feature .xtra-fetaure-img > div > span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* extra feature section end */
