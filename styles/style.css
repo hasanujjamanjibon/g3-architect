@@ -14,6 +14,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .flex-between-center {
   display: flex;
@@ -244,7 +245,9 @@ header > .nav-section > .nav-links li a {
 }
 .some-facts-section > .container > .fact-box-section {
   margin-top: 100px;
-  gap: 125px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 .some-facts-section > .container > .fact-box-section > .fact-box {
   display: flex;
@@ -258,11 +261,11 @@ header > .nav-section > .nav-links li a {
   border-radius: 8px;
   transition: transform 0.4s ease;
   transform: scale(1);
-  width: 241.83px;
-  height: 241.83px;
+  width: auto;
+  height: 240px;
 }
 .some-facts-section > .container > .fact-box-section > .fact-box:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(15deg);
 }
 
 .some-facts-section
@@ -367,11 +370,14 @@ textarea {
 
 /* Footer section start */
 .footer-section {
-  padding: 40px 15px;
-  background-color: #fff4e7;
+  margin: 40px 0;
   text-align: center;
 }
-.footer-section > .footer-text {
+.footer-section > .container {
+  padding: 20px 10px;
+  background-color: #fff4e7;
+}
+.footer-section > .container > .footer-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
