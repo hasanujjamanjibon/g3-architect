@@ -191,6 +191,7 @@ header > .nav-section > .nav-links li a {
   font-size: 14px;
   line-height: 22px;
   color: #727272;
+  margin-top: 5px;
 }
 .xtra-feature .xtra-fetaure-img {
   position: relative;
