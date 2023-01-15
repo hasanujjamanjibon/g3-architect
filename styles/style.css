@@ -248,7 +248,7 @@ header > .nav-section > .nav-links li a {
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 60px;
 }
 .some-facts-section > .container > .fact-box-section > .fact-box {
   display: flex;
@@ -266,7 +266,7 @@ header > .nav-section > .nav-links li a {
   height: 240px;
 }
 .some-facts-section > .container > .fact-box-section > .fact-box:hover {
-  transform: scale(1.2) rotate(15deg);
+  transform: scale(1.15) rotate(15deg);
 }
 
 .some-facts-section
